@@ -1,0 +1,19 @@
+{
+  "name": "analogclock",
+  "version": "1.0.0",
+  "description": "Analog Clock For InMotion Hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kDurg/analogClock.git"
+  },
+  "author": "Kyle Durigan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kDurg/analogClock/issues"
+  },
+  "homepage": "https://github.com/kDurg/analogClock#readme"
+}
