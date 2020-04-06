@@ -1,6 +1,6 @@
 # Background:
 
-Astro Clock is a project inspired by a coding challenge. The challenge given to me was to use HTML, CSS and Javascript to create an analog clock. While I have done plenty of CSS, I have always focused more on functionality of my projects, rather than how 'polished' they look. This was a fun way to get myself to play with transitions and styling again... and I started to go a little overboard. While I had a few more ideas, I had a deadline to stay within. 
+Astro Clock is a project inspired by a coding challenge. The challenge given to me was to use HTML, CSS and Javascript to create an analog clock. While I have done plenty of CSS, I have always focused more on functionality of my projects, rather than how 'polished' they look. This was a fun way to get myself to play with transitions and styling again and I found myself starting to go a little overboard.
 
 # Process:
 
