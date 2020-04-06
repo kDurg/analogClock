@@ -31,4 +31,4 @@ Next was getting the 'stars' up and going. This process was mostly done with Jav
 Finally, once I had my stars flying around the clock, it was time to make the initial load transition. This was the easiest part of the project. I added a fade and a blur to the background while keeping the text readable.
 
 # Screen Shot:
-![Dashboard](https://github.com/kDurg/analogClock/blob/master/screenshots/astroclock.PNGscreenshots/astroclock.PNG?raw=true)
+![AstroClock](/screenshots/astroclock.PNGscreenshots/astroclock.PNG?raw=true)
