@@ -1,9 +1,18 @@
+/*============================================================================================== 
+    PAGE SECTION
+  ==============================================================================================
+*/
 html {
-  background: #1d1135;
   font-size: 10px;
   text-align: center;
+  background: #1d1135;
+  animation-name: backgroundFade;
+  animation-duration: 10s;
+}@keyframes backgroundFade {
+  from {background-color: #ba1e68;}
+  to {background-color: #1d1135;}
 }
-  
+
 body {
   align-items: center;
   display: flex;
@@ -11,18 +20,39 @@ body {
   font-size: 2rem;
   margin: 0;
   min-height: 100vh;
+  
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-size: 2rem;
+  margin: 0;
+  min-height: 100vh;
+  animation-name: blurItems;
+  animation-duration: 4s;
+
+}@keyframes blurItems {
+  from {filter: blur(3px);}
 }
 
 .titleName {
   color: white;
+  margin-left: 50px;
+  font-size: 8rem;
+}
+
+.byLine {
+  color: #ba1e68;
+  margin-top: 0px;
 }
 
 /*============================================================================================== 
     STARS SECTION
   ==============================================================================================
 */
-
-  .stars {
+  .star {
     background-color: white;
     border-radius: 50% 50%;
     height: 10px;
@@ -31,12 +61,10 @@ body {
     width: 10px;
   }
 
-
 /*============================================================================================== 
-    CLOCK SECTION
+    CLOCK STYLING
   ==============================================================================================
 */
-
   .clock {
     background: #0c164f;
     border: 7px solid #0c164f;
@@ -140,7 +168,7 @@ body {
   
   .clockHand.hour-hand {
     width: 30%;
-    height: 10px;
+    height: 8px;
     z-index: 3;
   }
   
